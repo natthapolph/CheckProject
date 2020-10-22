@@ -1,0 +1,87 @@
+.Header-bar {
+  margin-top: 60px;
+  height: fit-content;
+}
+
+.Bar-Up {
+  display: flex;
+  background: lightseagreen;
+}
+
+.div-Bar-Description {
+  width: 900px;
+  display: flex;
+  padding: 5px;
+}
+.div-Bar-Project {
+  width: 200px;
+  padding: 0 5px 0 5px;
+  border-right: 1px solid black;
+  margin-right: 5px;
+}
+
+.div-Bar-Setting {
+  margin-left: auto;
+  display: flex;
+  padding: 5px;
+}
+
+.Link-Setting {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  letter-spacing: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.Label-cut-word {
+  word-wrap: break-word;
+}
+.Label-Bold {
+  font-weight: bold;
+}
+.UL-Bar {
+  list-style-type: none;
+  background: blue;
+  margin: 0;
+  padding: 0;
+}
+
+.LI-Bar {
+  display: inline-block;
+  padding: 5px;
+}
+
+.P-bold {
+  font-weight: bold;
+}
+.LI-Bar a {
+  text-decoration: none;
+  color: white;
+}
+.LI-Bar:hover {
+  background: rgb(64, 64, 255);
+}
+
+.LI-Bar:hover .drop-one > li {
+  display: block;
+}
+.drop-one li {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  background: blue;
+}
+
+.drop-one {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: fit-content;
+  z-index: 1;
+}
+
+.drop-one li {
+  position: relative;
+}

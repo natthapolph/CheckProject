@@ -1,0 +1,204 @@
+.Body-StepSST {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-StepSST {
+  width: 100%;
+  height: 100%;
+  /* background: thistle; */
+}
+
+.div-Table-Step-SST {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.div-Table-Center {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Head-StepSST {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-StepSST {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-Area-Button-StepSST {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.Button-Edit-Table-StepSST {
+  padding: 2px;
+  margin: 0 5px 0 5px;
+}
+
+.Button-Delete-Table-StepSST {
+  padding: 2px;
+  margin: 0 5px 0 0;
+}
+
+.Button-Add-modal-StepSST {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-close-modal-StepSST {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.P-Get-Detail-SST {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.div-Area-modal {
+  line-height: 20px;
+}
+
+.Input-Search-ID-Crop {
+  margin: 0 10px 0 10px;
+}
+
+.R-Alive {
+  margin-left: 10px;
+}
+
+.R-Dead {
+  margin-left: 20px;
+}
+
+.Input-Date-Move-Crop {
+  margin-left: 10px;
+}
+
+.Option-Select-ID-Seed-Croped {
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.Blog-Crop {
+  margin-left: 10px;
+}
+
+.Unit-Crop {
+  margin-left: 10px;
+}
+
+.R-Alive,
+.R-Dead {
+  margin: 0 10px 0 10px;
+}
+
+.Input-Date-Seedling {
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.modal-main-ProjectSST {
+  position: fixed;
+  background: white;
+  width: auto;
+  height: auto;
+  min-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 20px 50px 20px;
+  display: block;
+}
+
+.div-Area-Button-AddData-Close-StepSST {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+/* .Button-Add-Data-StepSST {
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+} */
+
+.Button-Close-StepSST {
+  /* width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px; */
+  margin-left: 5px;
+}
+
+/* .Button-Choose-in-Table {
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+} */
+
+.div-Area-Button-Choose {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.Button-Input-Grow {
+  margin-left: 5px;
+}

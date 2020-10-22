@@ -1,0 +1,201 @@
+.Modal-AddSetSeed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Body-Seeding {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-Seeding {
+  width: 100%;
+  height: 100%;
+}
+
+.Head-Seeding {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-Group-Seed {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+/* .P-Group-Seed {
+  font-size: 25px;
+} */
+
+.div-Area-modal-Delete-Seedling {
+  line-height: 25px;
+}
+
+.Input-border-Add-Seed {
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.div-Area-Button-Add-Group-Seed {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.div-Table-Seeding {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Button-Add-Seed-Table {
+  margin-left: 5px;
+}
+
+.Button-Edit-Table-Seeding {
+  padding: 2px;
+  margin: 0 5px 0 5px;
+}
+
+.Button-Delete-Table-Seeding {
+  padding: 2px;
+  margin: 0 5px 0 0;
+}
+
+.P-InputDtailGroupSeeding {
+  width: fit-content;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.Breed-Id-Search {
+  display: flex;
+}
+
+.Input-Breed-Id-Search {
+  margin: 0 10px 0 10px;
+  height: 25px;
+}
+
+.Button-Search-modal-Seeding {
+  height: 25px;
+}
+
+.Option-Breeding-Choose {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.div-Breed-Id-Search {
+  align-items: center;
+  width: fit-content;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.Button-Add-Group-of-Seed,
+.Button-Yes-modal-Breeding-confirm {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-Add-Group-of-Seed:hover,
+.Button-Yes-modal-Breeding-confirm:hover {
+  color: white;
+  background: green;
+}
+
+.Button-Add-Seed-Modal {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 110px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-Add-Seed-Modal:hover {
+  color: white;
+  background: green;
+}
+
+.Button-close-Seeding-modal,
+.Button-No-modal-Breeding-confirm {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-close-Seeding-modal:hover,
+.Button-No-modal-Breeding-confirm:hover {
+  color: white;
+  background: red;
+}
+
+.Input-Number-Seeding {
+  margin-left: 10px;
+  width: 50px;
+  padding: 2px;
+}
+
+.Input-Date-Get-Seed {
+  margin-left: 10px;
+}
+
+.div-Area-modal-Line-Height {
+  line-height: 20px;
+}
+
+.Input-Number-Seed,
+.Input-Date-Seed {
+  margin-left: 10px;
+}
+
+.P-Head-Modal-Seed-Date {
+  width: fit-content;
+  background: chartreuse;
+}
+
+.Button-Input-Adseed {
+  margin-left: 5px;
+}

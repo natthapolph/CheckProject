@@ -1,0 +1,43 @@
+.Body-GrowSST {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-GrowSST {
+  width: 100%;
+  height: 100%;
+}
+
+.Button-Search {
+  border: none;
+  background: transparent;
+  padding-bottom: 3px;
+}
+
+.Input-Search {
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.Area-Search {
+  background: white;
+  width: 150px;
+  border-radius: 10px;
+  padding: 1px 5px 1px 8px;
+}
+
+.Area-Search:hover {
+  box-shadow: 0px 0px 1px 1px rgb(180, 180, 180);
+}
+
+.Link-Underline-Color {
+  text-decoration: none;
+  color: black;
+}
+
+.div-Area-Button-Project {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px 0 20px;
+}

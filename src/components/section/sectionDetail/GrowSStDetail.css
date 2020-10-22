@@ -1,0 +1,105 @@
+.Body-GrowSStDetail {
+  width: 100%;
+  height: 100vh;
+}
+
+.Head-GrowSSTDetail {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-GrowSSTDetail {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-Area-Button-GrowSSTDetail {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.div-Table-GrowSSTDetail {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Button-Delete-Table-GrowSSTDetail {
+  padding: 2px;
+  margin: 0 5px 0 0;
+}
+
+.Button-Edit-Table-GrowSSTDetail {
+  padding: 2px;
+  margin: 0 5px 0 0;
+}
+
+.P-Add-Detail-Grow-ID-modal {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  width: fit-content;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.Input-Date-Grow {
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.Input-Number-Anount-Value {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 50px;
+  padding: 2px;
+}
+
+.Button-Add-GrowSSTDetail-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-Add-GrowSSTDetail-modal:hover {
+  background: green;
+  color: white;
+}
+
+.Button-Close-GrowSSTDetail-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-Close-GrowSSTDetail-modal:hover {
+  color: white;
+  background: red;
+}

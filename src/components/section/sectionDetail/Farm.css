@@ -1,0 +1,219 @@
+.Body-Farm {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-Farm {
+  width: 100%;
+  height: 100%;
+  /* background: thistle; */
+}
+.Modal-DetailFarm,
+.Modal-ShowAddMember {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.List-Farm-Farm {
+  list-style: none;
+}
+.Button-Bar {
+  border-radius: 5px;
+  padding: 2px;
+  background: white;
+  border: 2px solid green;
+}
+
+.Box-Farm-Farm {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  /* background: #3f8f8b; */
+}
+
+.Area-Img-Farm {
+  position: absolute;
+  width: 30%;
+  background: chartreuse;
+  border: 1px solid black;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.img-Farm-Farm {
+  width: 30px;
+  height: 30px;
+}
+
+.Area-Name-Farm-Farm {
+  position: absolute;
+  /* background: cyan; */
+  width: 70%;
+  height: 100%;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+}
+
+.Button-Show-Farm {
+  background: transparent;
+  border: none;
+  margin: 10px 5px 5px 5px;
+}
+
+.Head-Farm {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+/* .P-Farm {
+  font-size: 25px;
+} */
+
+.div-Head-Left-Side {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.div-Head-Right-Side {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+div.ex3 {
+  background: #eee;
+  padding: 10px 10px 10px 15px;
+  line-height: 25px;
+  /* width: 110px;*/
+  height: 250px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.P-Delete-Center {
+  width: fit-content;
+  margin: 0 auto 0 auto;
+}
+.Label-Weight-Bold {
+  font-weight: bold;
+}
+
+.Checkbox-list-Farm {
+  margin-right: 5px;
+}
+.div-Photo-Farm-modal {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.Photo-Farm-modal {
+  width: 150px;
+  display: flex;
+  border: 1px double black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-Detail-About-Farm {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  text-align: start;
+  background: rgb(214, 214, 214);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Button-close-Farm-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Button-close-Farm-modal:hover {
+  color: white;
+  background: red;
+}
+
+.div-Upper-modal {
+  background: rgb(230, 230, 230);
+  padding: 10px;
+  height: 265px;
+  border-radius: 5px;
+}
+
+.P-Choose-Farm-You-Want {
+  text-align: start;
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.div-Lowwer-modal {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  height: 40px;
+  /* border-radius: 5px;
+  background: rgb(201, 255, 201); */
+}
+
+.P-Farm-You-Choose {
+  text-align: start;
+}
+
+.Button-AddFarm-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.Button-AddFarm-modal:hover {
+  background: green;
+  color: white;
+}
+
+.List-NameFarm-modal {
+  list-style: none;
+  text-align: start;
+  line-height: 22px;
+}
+
+.div-Choose-Background-color {
+  background: rgb(204, 255, 189);
+  margin-left: 5px;
+  border-radius: 5px;
+  /* padding: 0 5px 0 5px; */
+  width: fit-content;
+}

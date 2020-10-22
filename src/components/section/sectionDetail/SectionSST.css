@@ -1,0 +1,37 @@
+.Body-SectionSST {
+  width: 100%;
+  height: 100vh;
+}
+
+.Head-SectionSST {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-Head-SectionSST {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-Area-Button-SectionSST {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.div-Table-SectionSST {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.Input-Number-Amount,
+.Input-Date-Timber {
+  margin-left: 10px;
+  border-radius: 3px;
+}

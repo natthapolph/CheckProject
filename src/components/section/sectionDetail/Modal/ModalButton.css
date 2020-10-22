@@ -1,0 +1,40 @@
+.Button-1 {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-1:hover {
+  background: green;
+  color: white;
+}
+
+.Button-2 {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-2:hover {
+  color: white;
+  background: red;
+}

@@ -1,0 +1,116 @@
+.Body-Breeder {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-Breeder {
+  width: 100%;
+  height: 100%;
+}
+.Modal-AddBreeder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Head-Breeder {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-Species {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .P-Species {
+  font-size: 25px;
+} */
+.div-Area-Button-AddSpecies {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.P-Collect-F-M {
+  font-size: 16px;
+}
+
+.div-Input-Collect-F-M {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Input-Breeder-Name {
+  margin-left: 10px;
+  padding: 0 3px 0 3px;
+  border-radius: 3px;
+}
+
+.Input-border {
+  padding: 0 3px 0 3px;
+  border-radius: 3px;
+}
+
+.Input-border-Mleft {
+  margin-left: 10px;
+  padding: 0 3px 0 3px;
+  border-radius: 3px;
+}
+
+.Button-Add-Breeder,
+.Button-yes-Breeder-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.Button-Add-Breeder:hover,
+.Button-yes-Breeder-modal:hover {
+  color: white;
+  background: green;
+}
+
+.Button-close-Breeder {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Button-close-Breeder:hover {
+  color: white;
+  background: red;
+}
+
+.div-Breeder {
+  background: lightblue;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}

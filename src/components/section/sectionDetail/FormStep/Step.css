@@ -1,0 +1,25 @@
+.Body-Form-Step {
+  width: 100%;
+  height: 100vh;
+}
+
+.Head-Form-Step {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-Form-Step {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-Area-Button-Form-Step {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}

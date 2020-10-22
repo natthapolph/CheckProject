@@ -1,0 +1,129 @@
+.Body-AddSeedling {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-AddSeedling {
+  width: 100%;
+  height: 100%;
+}
+
+.Head-AddSeedling {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-AddSeedling {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+/* .P-seeding {
+  font-size: 25px;
+} */
+
+.div-Area-Button-Addseeding {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.Input-Id-Group-Seed {
+  border: brown;
+}
+
+.div-Table-AddSeeding {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Button-Edit-Table-AddSeeding {
+  padding: 2px;
+  margin: 0 5px 0 5px;
+}
+
+.Button-Delete-Table-AddSeeding {
+  padding: 2px;
+  margin: 0 5px 0 0;
+}
+
+.Button-Add-Seed-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-Add-Seed-modal:hover {
+  color: white;
+  background: green;
+}
+
+.Button-close-AddSeeding {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-close-AddSeeding:hover {
+  color: white;
+  background: red;
+}
+
+.Input-Search-ID {
+  margin: 0 10px 0 10px;
+}
+
+.div-Area-modal-Search-ID {
+  width: fit-content;
+}
+
+.Input-Date-Seed-AddSeeding,
+.Input-Number-Grow-Seeding,
+.Input-Place-Seed-AddSeeding,
+.Input-Number-Seeding,
+.Input-Date-Crop {
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.Input-Number-Seed-Crop {
+  margin-left: 10px;
+  border-radius: 3px;
+  width: 50px;
+  padding: 2px;
+}
+
+.Input-border-Number-Seed {
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.Input-Number-Seed-alive {
+  margin-left: 10px;
+  width: 50px;
+  padding: 2px;
+}

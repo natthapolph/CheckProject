@@ -1,0 +1,15 @@
+div .Body-Formplot{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+div .Container-Formplot{
+    max-width: 500px;
+    width: 100%;
+    padding: 50px;
+    background: white;
+    border: 20px solid#1111;
+    }

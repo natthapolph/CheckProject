@@ -1,0 +1,196 @@
+.Body-regis {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../img/Wall.jpeg);
+  background-size: cover;
+}
+
+.Container-regis {
+  display: flex;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.div-Area-Register {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Area-Register {
+  position: fixed;
+  display: flex;
+  width: 33%;
+  height: 100vh;
+  background: white;
+  right: 0px;
+  top: 0px;
+  line-height: 40px;
+}
+
+.Input-Register {
+  width: 80%;
+  height: 35px;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(228, 237, 255);
+}
+
+.img-logo-KU-Register {
+  position: fixed;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 50px;
+  height: 60px;
+}
+
+.h1-Register {
+  color: #31726f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.P-Firstname-Register {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.P-Lastname-Register {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.P-Email-Register {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.P-Password-Register {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.P-Confirm-Password-Register {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.Area-Button-Register {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: end;
+}
+.Button-submit-Register {
+  width: 20%;
+  height: 30px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.Button-Cancle-Register {
+  width: 20%;
+  height: 30px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.error1,
+.error2,
+.error3 {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 990px) {
+  .Area-Register {
+    width: 100%;
+  }
+
+  .div-Area-Register {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .Area-Register {
+    width: 100%;
+  }
+
+  .div-Area-Register {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .Area-Register {
+    width: 100%;
+  }
+
+  .div-Area-Register {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-logo-KU-Register {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Area-Register {
+    width: 100%;
+  }
+
+  .div-Area-Register {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-logo-KU-Register {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 50px;
+  }
+}

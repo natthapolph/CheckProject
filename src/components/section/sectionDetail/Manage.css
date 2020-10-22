@@ -1,0 +1,356 @@
+.Container-Manage {
+  width: 100%;
+
+  /* margin-left: 250px; */
+}
+.display-none {
+  display: none;
+}
+.Modal-ShowSetOwner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Head-Manage-Project {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.div-Manage-Project {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+.div-Area-Button-AddMember {
+  margin-left: auto;
+  display: flex;
+  width: auto;
+  margin-right: 10px;
+}
+
+.Button-AddMember-Manage {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.List-Owner-Manage {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+
+  height: auto;
+  /* background: lightgray; */
+  padding: 5px 0 5px 0;
+}
+
+.Owner {
+  width: fit-content;
+  color: black;
+}
+
+.Name-List-Manage-Owner {
+  display: inline-block;
+  width: 33.4%;
+  height: auto;
+
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.Id-List-Manage-Owner {
+  display: inline-block;
+  left: 33.4%;
+  width: 33.3%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.Status-List-Manage-Owner {
+  display: inline-block;
+  left: 66.7%;
+  width: 33.3%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.li-List-Owner {
+  list-style: none;
+}
+
+.List-Member-Manage {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  /* background: lightgray; */
+  padding: 5px 0 5px 0;
+}
+
+.Name-List-Manage-Member {
+  display: inline-block;
+  width: 33.4%;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.Id-List-Manage-Member {
+  display: inline-block;
+  left: 33.4%;
+  width: 33.3%;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.Status-List-Manage-Member {
+  display: inline-block;
+  left: 66.37%;
+  width: 33.3%;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.Member {
+  color: black;
+
+  width: fit-content;
+}
+
+.li-List-Member {
+  list-style: none;
+}
+
+.List-Ta-Manage {
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  /* background: lightblue; */
+  padding: 5px 0 5px 0;
+}
+
+.Ta {
+  color: black;
+
+  width: fit-content;
+}
+
+.Set-Owner {
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.P-Change-Owner {
+  margin-top: 40px;
+}
+
+.Input-Email-modal-Manage {
+  width: 60%;
+  height: 40px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.Button-Change-modal-Manage {
+  width: 70px;
+  height: 30px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-close-modal-Manage {
+  width: 70px;
+  height: 30px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-back-Manage {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  border: none;
+}
+
+#Icon-Back-Manage {
+  font-size: 25px;
+}
+
+.P-Manage-Project {
+  font-size: 25px;
+}
+
+.P-Member {
+  font-size: 20px;
+}
+
+.P-Owner {
+  font-size: 20px;
+}
+
+.P-EditProject {
+  font-size: 20px;
+  font-weight: bold;
+}
+.P-Ta {
+  font-size: 20px;
+}
+
+.Head-Add-Member {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.div-Enter-Email {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.P-Enter-Email {
+  text-align: start;
+}
+
+.Input-Email-AddMember {
+  width: 230px;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.div-Input-Email-AddMember {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Button-Add-modal-AddMember {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-close-modal-AddMember {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-Edit-Pencil {
+  display: inline;
+  margin-left: 5px;
+  margin-bottom: auto;
+}
+
+.inline-Manage-Edit {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.Button-Edit-correct {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.Button-Edit-correct:hover {
+  opacity: 0.6;
+}
+
+#Icon-correct {
+  font-size: 16px;
+  color: green;
+}
+
+#Icon-X {
+  font-size: 16px;
+  color: red;
+}
+
+.Button-Edit-X {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Button-Edit-X:hover {
+  opacity: 0.6;
+}
+
+.div-Edit-Project {
+  padding: 5px 0 5px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-Area-C-X {
+  display: inline;
+  margin-left: 5px;
+  margin-bottom: auto;
+}
+
+.div-Area-invite {
+  padding: 5px 0 5px 0;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

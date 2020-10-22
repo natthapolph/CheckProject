@@ -1,0 +1,270 @@
+.Body-MyFarm {
+  width: 100%;
+  height: 100vh;
+}
+
+.Container-MyFarm {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.Container {
+  margin-top: 60px;
+  padding: 30px;
+}
+.display-none {
+  display: none;
+}
+.div-Area-Head-Page {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 80px;
+  width: 100%;
+  height: fit-content;
+}
+.Button-edit-Myfarm {
+  width: 70px;
+  height: 25px;
+  border: 2px solid green;
+  color: green;
+  background: transparent;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-edit-Myfarm:hover {
+  color: white;
+  background: green;
+}
+#Icon-Myfarm {
+  font-size: 50px;
+  color: white;
+}
+
+.Area-Name-Myfarm {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Link-Card-Myfarm {
+  text-decoration: none;
+  color: white;
+}
+
+.Button-submit-Myfarm {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid mediumblue;
+  color: mediumblue;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.Button-submit-Myfarm:hover {
+  background: mediumblue;
+  color: white;
+}
+
+.Button-close-Myfarm {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.Button-close1-Myfarm {
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.Button-close-Myfarm:hover,
+.Button-close1-Myfarm:hover {
+  color: white;
+  background: red;
+}
+
+.Button-save-Myfarm {
+  width: 70px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Button-save-Myfarm:hover {
+  color: white;
+  background: green;
+}
+
+.Head-Yourfarm {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.P-FarmName {
+  width: 80%;
+  display: flex;
+  margin: 5px auto 10px auto;
+}
+
+.P-LocationFarm {
+  width: 80%;
+  display: flex;
+  margin: 5px auto 10px auto;
+}
+
+.Input-Modal-Myfarm {
+  display: flex;
+  width: 80%;
+  margin: 5px auto 10px auto;
+  height: 25px;
+}
+
+.P-FarmName-Edit {
+  width: 45%;
+  display: flex;
+  margin: 0 auto 0 auto;
+  text-align: start;
+}
+
+.P-Location-Edit {
+  width: 45%;
+  display: flex;
+  margin: 0 auto 0 auto;
+  text-align: start;
+}
+
+.Input-Myfarm {
+  width: 45%;
+  margin: 5px auto 10px auto;
+  height: 25px;
+}
+
+#Button-Add-Myfarm {
+  font-size: 120px;
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Modal-AddFarm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main-Farm {
+  position: fixed;
+  background: white;
+  width: 450px;
+  height: auto;
+  min-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 20px 50px 20px;
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.Card-Myfarm {
+  width: 120px;
+  height: 120px;
+  line-height: 30px;
+  display: block;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s linear;
+  background-color: rgb(199, 197, 197);
+}
+
+.Card-Myfarm:hover {
+  background-color: rgb(175, 175, 175);
+}
+.show {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-Card {
+  max-height: 120px;
+}
+
+.img-Myfarm {
+  width: 500px;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: double 12px white;
+}
+
+.ShowMe {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightgray;
+  width: 75%;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.List-MyFarm {
+  list-style: none;
+}
+
+.div-Farm-Name {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+}
+
+.div-Location {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+}

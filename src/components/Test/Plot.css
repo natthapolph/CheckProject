@@ -1,0 +1,132 @@
+.Body-plot {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container-plot {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Container-plot li {
+  list-style: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 60%;
+  height: auto;
+  min-height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10%;
+  display: block;
+}
+
+#close-plot {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 60px;
+}
+
+.bt-addplot {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #555777;
+  box-shadow: 0 0 3px gray;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  bottom: 80px;
+  right: 100px;
+  position: fixed;
+}
+
+.input-plot {
+  width: 100%;
+  margin: 10px 0;
+  padding-left: 10px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+input:focus {
+  border-bottom: 1px solid black;
+}
+
+.bt-addplot:hover {
+  background: #83859e;
+}
+
+.bt-addplot:hover > .bt_addform {
+  opacity: 1;
+}
+
+#icon-card {
+  font-size: 100px;
+}
+
+.img-plot {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.bt_addform {
+  display: block;
+  text-decoration: none;
+  opacity: 0.6;
+  color: whitesmoke;
+}
+
+.card-plot {
+  width: 250px;
+  line-height: 30px;
+  display: block;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: 1px 4px 10px rgb(49, 49, 49);
+  margin: 10px;
+  transition: 0.5s linear;
+  background-color: rgb(199, 197, 197);
+}
+
+.card-plot:hover {
+  box-shadow: none;
+  transition: 0.4s;
+}

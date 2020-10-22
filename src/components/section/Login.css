@@ -1,0 +1,166 @@
+.Body-login {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  background-image: url(../img/Wall.jpeg);
+  background-size: cover;
+}
+
+.Container-login {
+  display: flex;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+.div-Area-Login {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Area-Login {
+  position: fixed;
+  display: flex;
+  width: 33%;
+  height: 100vh;
+  background: white;
+  right: 0px;
+  top: 0px;
+  line-height: 40px;
+}
+
+.img-logo-KU-Login {
+  width: 100px;
+  height: 120px;
+}
+
+.Input-Login {
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 14px;
+  border: none;
+  background: rgb(228, 237, 255);
+}
+
+.P-Email-Login {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+}
+
+.P-Password-Login {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.Button-login {
+  width: 80%;
+  height: 35px;
+  background: #3f8f8b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.row-login {
+  width: 80%;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Space-Between {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Res-clk {
+  text-decoration: none;
+  color: blue;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.P-or-Login {
+  display: inline;
+}
+
+.Forget-clk {
+  color: blue;
+  display: inline-block;
+}
+
+.asas {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 990px) {
+  .Area-Login {
+    width: 100%;
+  }
+
+  .div-Area-Login {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .Area-Login {
+    width: 100%;
+  }
+
+  .div-Area-Login {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .Area-Login {
+    width: 100%;
+  }
+
+  .div-Area-Login {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-logo-KU-Login {
+    width: 80px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Area-Login {
+    width: 100%;
+  }
+
+  .div-Area-Login {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-logo-KU-Login {
+    width: 80px;
+    height: 100px;
+  }
+}
